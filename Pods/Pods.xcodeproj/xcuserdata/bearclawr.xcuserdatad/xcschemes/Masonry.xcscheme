@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '32F25B56B7E8531B4FAEC8727287AF26'
-               BlueprintName = 'Pods-LntelligentLightControl'
+               BlueprintIdentifier = '53480ED0BE09FF49E34B1702D485CAAB'
+               BlueprintName = 'Masonry'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-LntelligentLightControl.a'>
+               BuildableName = 'libMasonry.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

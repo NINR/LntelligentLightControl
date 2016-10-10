@@ -10,11 +10,14 @@
 
 @implementation MonitorNetwork
 
+//创建网络监听管理类对象
+static AFNetworkReachabilityManager *manager = nil;
+
 /**
  * 初始化AFNetworkReachabilityManager对象  进行网络状态监听
  */
 + (void)startUpMonitorNetwork{
-    AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
+    manager = [AFNetworkReachabilityManager sharedManager];
     [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         // 当网络状态发生改变的时候调用这个block
         switch (status) {
@@ -39,5 +42,13 @@
     }];
     // 开始监控
     [manager startMonitoring];
+}
+
+
+/**
+ * 关闭网络状态监听
+ */
++ (void)stopMonitoring{
+    [manager stopMonitoring];
 }
 @end
