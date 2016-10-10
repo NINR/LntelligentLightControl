@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  LntelligentLightControl
+//
+//  Created by BearClawr on 16/10/10.
+//  Copyright © 2016年 后步. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//Macros
+#import "GlobalVariables.h"
+
+//cocoapods
+#import <AFNetworking.h>
+
+#endif /* PrefixHeader_pch */

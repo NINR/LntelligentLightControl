@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8140E8E8AB259062B7DB519E /* libPods-LntelligentLightControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7A85C3E59BA9F46E472C5A /* libPods-LntelligentLightControl.a */; };
 		9E96351D1DABB5CA002FA2CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E96351C1DABB5CA002FA2CC /* main.m */; };
 		9E9635201DABB5CA002FA2CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E96351F1DABB5CA002FA2CC /* AppDelegate.m */; };
-		9E9635231DABB5CA002FA2CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9635221DABB5CA002FA2CC /* ViewController.m */; };
-		9E9635261DABB5CA002FA2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9635241DABB5CA002FA2CC /* Main.storyboard */; };
 		9E9635281DABB5CA002FA2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9635271DABB5CA002FA2CC /* Assets.xcassets */; };
 		9E96352B1DABB5CA002FA2CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9635291DABB5CA002FA2CC /* LaunchScreen.storyboard */; };
 		9E9635361DABB5CA002FA2CC /* LntelligentLightControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9635351DABB5CA002FA2CC /* LntelligentLightControlTests.m */; };
 		9E9635411DABB5CA002FA2CC /* LntelligentLightControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9635401DABB5CA002FA2CC /* LntelligentLightControlUITests.m */; };
+		9E9635601DABCC73002FA2CC /* MonitorNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E96355F1DABCC73002FA2CC /* MonitorNetwork.m */; };
+		9E9635631DABCF7E002FA2CC /* GuidePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9635621DABCF7E002FA2CC /* GuidePageController.m */; };
+		9E9635661DABCFFE002FA2CC /* SearchEquipmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9635651DABCFFE002FA2CC /* SearchEquipmentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A7A85C3E59BA9F46E472C5A /* libPods-LntelligentLightControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LntelligentLightControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8C6A9B7183903318151C3 /* Pods-LntelligentLightControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LntelligentLightControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-LntelligentLightControl/Pods-LntelligentLightControl.release.xcconfig"; sourceTree = "<group>"; };
 		9E9635181DABB5CA002FA2CC /* LntelligentLightControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LntelligentLightControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E96351C1DABB5CA002FA2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E96351E1DABB5CA002FA2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9E96351F1DABB5CA002FA2CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E9635211DABB5CA002FA2CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E9635221DABB5CA002FA2CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E9635251DABB5CA002FA2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E9635271DABB5CA002FA2CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E96351E1DABB5CA002FA2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		9E96351F1DABB5CA002FA2CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		9E9635271DABB5CA002FA2CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		9E96352A1DABB5CA002FA2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9E96352C1DABB5CA002FA2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E96352C1DABB5CA002FA2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		9E9635311DABB5CA002FA2CC /* LntelligentLightControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LntelligentLightControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9635351DABB5CA002FA2CC /* LntelligentLightControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LntelligentLightControlTests.m; sourceTree = "<group>"; };
 		9E9635371DABB5CA002FA2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E96353C1DABB5CA002FA2CC /* LntelligentLightControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LntelligentLightControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9635401DABB5CA002FA2CC /* LntelligentLightControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LntelligentLightControlUITests.m; sourceTree = "<group>"; };
 		9E9635421DABB5CA002FA2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9635591DABC604002FA2CC /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		9E96355C1DABC6DD002FA2CC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9E96355E1DABCC73002FA2CC /* MonitorNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorNetwork.h; sourceTree = "<group>"; };
+		9E96355F1DABCC73002FA2CC /* MonitorNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorNetwork.m; sourceTree = "<group>"; };
+		9E9635611DABCF7E002FA2CC /* GuidePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageController.h; sourceTree = "<group>"; };
+		9E9635621DABCF7E002FA2CC /* GuidePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageController.m; sourceTree = "<group>"; };
+		9E9635641DABCFFE002FA2CC /* SearchEquipmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchEquipmentController.h; sourceTree = "<group>"; };
+		9E9635651DABCFFE002FA2CC /* SearchEquipmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchEquipmentController.m; sourceTree = "<group>"; };
+		AE4265206E3AED6C3C2120B6 /* Pods-LntelligentLightControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LntelligentLightControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LntelligentLightControl/Pods-LntelligentLightControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8140E8E8AB259062B7DB519E /* libPods-LntelligentLightControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4613510621AFB800002D58A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE4265206E3AED6C3C2120B6 /* Pods-LntelligentLightControl.debug.xcconfig */,
+				66E8C6A9B7183903318151C3 /* Pods-LntelligentLightControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9E96350F1DABB5C9002FA2CC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				9E9635341DABB5CA002FA2CC /* LntelligentLightControlTests */,
 				9E96353F1DABB5CA002FA2CC /* LntelligentLightControlUITests */,
 				9E9635191DABB5CA002FA2CC /* Products */,
+				4613510621AFB800002D58A8 /* Pods */,
+				F44D810A7FC1D33A769F82F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +123,14 @@
 		9E96351A1DABB5CA002FA2CC /* LntelligentLightControl */ = {
 			isa = PBXGroup;
 			children = (
-				9E96351E1DABB5CA002FA2CC /* AppDelegate.h */,
-				9E96351F1DABB5CA002FA2CC /* AppDelegate.m */,
-				9E9635211DABB5CA002FA2CC /* ViewController.h */,
-				9E9635221DABB5CA002FA2CC /* ViewController.m */,
-				9E9635241DABB5CA002FA2CC /* Main.storyboard */,
-				9E9635271DABB5CA002FA2CC /* Assets.xcassets */,
-				9E9635291DABB5CA002FA2CC /* LaunchScreen.storyboard */,
-				9E96352C1DABB5CA002FA2CC /* Info.plist */,
-				9E96351B1DABB5CA002FA2CC /* Supporting Files */,
+				9E9635511DABC37A002FA2CC /* GuidePage */,
+				9E9635531DABC37A002FA2CC /* MainModule */,
+				9E96354E1DABC37A002FA2CC /* AboutOwn */,
+				9E9635501DABC37A002FA2CC /* GlobalFile */,
+				9E9635561DABC37A002FA2CC /* Resources */,
+				9E9635521DABC37A002FA2CC /* Macros */,
+				9E96354F1DABC37A002FA2CC /* Category */,
+				9E9635571DABC37A002FA2CC /* Tool */,
 			);
 			path = LntelligentLightControl;
 			sourceTree = "<group>";
@@ -120,6 +141,7 @@
 				9E96351C1DABB5CA002FA2CC /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9E9635341DABB5CA002FA2CC /* LntelligentLightControlTests */ = {
@@ -140,6 +162,132 @@
 			path = LntelligentLightControlUITests;
 			sourceTree = "<group>";
 		};
+		9E96354E1DABC37A002FA2CC /* AboutOwn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AboutOwn;
+			sourceTree = "<group>";
+		};
+		9E96354F1DABC37A002FA2CC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9E9635501DABC37A002FA2CC /* GlobalFile */ = {
+			isa = PBXGroup;
+			children = (
+				9E96355B1DABC6B4002FA2CC /* PrefixFile */,
+				9E96351B1DABB5CA002FA2CC /* Supporting Files */,
+				9E9635581DABC3D8002FA2CC /* AppDelegate */,
+				9E9635291DABB5CA002FA2CC /* LaunchScreen.storyboard */,
+				9E96355A1DABC672002FA2CC /* PlistFile */,
+			);
+			path = GlobalFile;
+			sourceTree = "<group>";
+		};
+		9E9635511DABC37A002FA2CC /* GuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				9E9635611DABCF7E002FA2CC /* GuidePageController.h */,
+				9E9635621DABCF7E002FA2CC /* GuidePageController.m */,
+			);
+			path = GuidePage;
+			sourceTree = "<group>";
+		};
+		9E9635521DABC37A002FA2CC /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				9E9635591DABC604002FA2CC /* GlobalVariables.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		9E9635531DABC37A002FA2CC /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				9E9635641DABCFFE002FA2CC /* SearchEquipmentController.h */,
+				9E9635651DABCFFE002FA2CC /* SearchEquipmentController.m */,
+				9E9635541DABC37A002FA2CC /* LightControlPage */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		9E9635541DABC37A002FA2CC /* LightControlPage */ = {
+			isa = PBXGroup;
+			children = (
+				9E9635551DABC37A002FA2CC /* WifiController */,
+			);
+			path = LightControlPage;
+			sourceTree = "<group>";
+		};
+		9E9635551DABC37A002FA2CC /* WifiController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WifiController;
+			sourceTree = "<group>";
+		};
+		9E9635561DABC37A002FA2CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E9635271DABB5CA002FA2CC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E9635571DABC37A002FA2CC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9E96355D1DABCB95002FA2CC /* MonitorNetwork */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		9E9635581DABC3D8002FA2CC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9E96351E1DABB5CA002FA2CC /* AppDelegate.h */,
+				9E96351F1DABB5CA002FA2CC /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9E96355A1DABC672002FA2CC /* PlistFile */ = {
+			isa = PBXGroup;
+			children = (
+				9E96352C1DABB5CA002FA2CC /* Info.plist */,
+			);
+			name = PlistFile;
+			sourceTree = "<group>";
+		};
+		9E96355B1DABC6B4002FA2CC /* PrefixFile */ = {
+			isa = PBXGroup;
+			children = (
+				9E96355C1DABC6DD002FA2CC /* PrefixHeader.pch */,
+			);
+			name = PrefixFile;
+			sourceTree = "<group>";
+		};
+		9E96355D1DABCB95002FA2CC /* MonitorNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				9E96355E1DABCC73002FA2CC /* MonitorNetwork.h */,
+				9E96355F1DABCC73002FA2CC /* MonitorNetwork.m */,
+			);
+			path = MonitorNetwork;
+			sourceTree = "<group>";
+		};
+		F44D810A7FC1D33A769F82F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7A85C3E59BA9F46E472C5A /* libPods-LntelligentLightControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E9635451DABB5CA002FA2CC /* Build configuration list for PBXNativeTarget "LntelligentLightControl" */;
 			buildPhases = (
+				07667CDC5B11ECBA127079C8 /* [CP] Check Pods Manifest.lock */,
 				9E9635141DABB5C9002FA2CC /* Sources */,
 				9E9635151DABB5C9002FA2CC /* Frameworks */,
 				9E9635161DABB5C9002FA2CC /* Resources */,
+				FE96DF576A671113A98137B7 /* [CP] Embed Pods Frameworks */,
+				0BA7E54432322AC104454725 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +399,6 @@
 			files = (
 				9E96352B1DABB5CA002FA2CC /* LaunchScreen.storyboard in Resources */,
 				9E9635281DABB5CA002FA2CC /* Assets.xcassets in Resources */,
-				9E9635261DABB5CA002FA2CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +418,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07667CDC5B11ECBA127079C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0BA7E54432322AC104454725 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LntelligentLightControl/Pods-LntelligentLightControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE96DF576A671113A98137B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LntelligentLightControl/Pods-LntelligentLightControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E9635141DABB5C9002FA2CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E9635231DABB5CA002FA2CC /* ViewController.m in Sources */,
+				9E9635601DABCC73002FA2CC /* MonitorNetwork.m in Sources */,
 				9E9635201DABB5CA002FA2CC /* AppDelegate.m in Sources */,
 				9E96351D1DABB5CA002FA2CC /* main.m in Sources */,
+				9E9635631DABCF7E002FA2CC /* GuidePageController.m in Sources */,
+				9E9635661DABCFFE002FA2CC /* SearchEquipmentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +511,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9E9635241DABB5CA002FA2CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E9635251DABB5CA002FA2CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9E9635291DABB5CA002FA2CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9E96352A1DABB5CA002FA2CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,8 +613,10 @@
 		};
 		9E9635461DABB5CA002FA2CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4265206E3AED6C3C2120B6 /* Pods-LntelligentLightControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/bearclawr/Desktop/Demo大全/LntelligentLightControl/LntelligentLightControl/GlobalFile/PrefixHeader.pch";
 				INFOPLIST_FILE = LntelligentLightControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.houbukj.LntelligentLightControl;
@@ -431,8 +626,10 @@
 		};
 		9E9635471DABB5CA002FA2CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E8C6A9B7183903318151C3 /* Pods-LntelligentLightControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/bearclawr/Desktop/Demo大全/LntelligentLightControl/LntelligentLightControl/GlobalFile/PrefixHeader.pch";
 				INFOPLIST_FILE = LntelligentLightControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.houbukj.LntelligentLightControl;
@@ -505,6 +702,7 @@
 				9E9635471DABB5CA002FA2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E9635481DABB5CA002FA2CC /* Build configuration list for PBXNativeTarget "LntelligentLightControlTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +711,7 @@
 				9E96354A1DABB5CA002FA2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E96354B1DABB5CA002FA2CC /* Build configuration list for PBXNativeTarget "LntelligentLightControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +720,7 @@
 				9E96354D1DABB5CA002FA2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
